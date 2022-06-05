@@ -1,0 +1,847 @@
+  <!doctype html>
+  <html lang="es">
+
+  <head>
+    <!-- Title of The Page -->
+    <title>F.E.T.G. | Portafolio</title>
+    <!-- Meta Informations -->
+    <meta charset="utf-8">
+    <meta name="description" content="Portafolio de Fernando Enrique Trujillo Guiarte">
+    <meta name="keywords" content="F.E.T.G. | Portafolio, portfolio, php, mysql, sql server, Fernando Portafolio">
+    <meta name="author" content="Fernando Enrique Trujillo Guiarte">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Favicon -->
+    <link type="image/x-icon" rel="shortcut icon" href="assets/images/icon/icon.png" />
+    <!-- Font CSS -->
+    <link type="text/css" rel="stylesheet" href="assets/fonts/font.css" />
+    <!-- Font-Awesome All CSS -->
+    <link type="text/css" rel="stylesheet" href="assets/css/all.css" />
+    <!-- Bootstrap CSS -->
+    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- Owlcarousel CSS -->
+    <link type="text/css" rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <!-- Fancybox CSS 
+    <link type="text/css" rel="stylesheet" href="assets/css/jquery.fancybox.min.css" />-->
+    <!-- Animate CSS -->
+    <link type="text/css" rel="stylesheet" href="assets/css/animate.min.css" />
+    <!-- Glightbox CSS -->
+    <link href="assets/vendor/glightbox/css/glightbox.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- colors CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/colors.css" />
+    <!-- Styles CSS -->
+    <link type="text/css" rel="stylesheet" href="assets/css/styles.css" />
+    <!-- Live Style Switcher - demo only -->
+    <!-- Style Swicther -->
+  	<link id="style-switch" href="assets/css/colors/cian.css" media="screen" rel="stylesheet" type="text/css">
+    <!-- Responsive CSS -->
+    <link type="text/css" rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/sweetalert2.css">
+
+  </head>
+
+  <body>
+    <script src="assets/js/sweetalert2.js"></script>
+    <script type="text/javascript">
+      function delBorder(id) {
+        $('#'+id).css("border","0px solid #000");
+      }
+    </script>
+    <!-- Body Part Start -->
+    <div class="gaspar" data-magic-cursor="show" data-color="crimson">
+      <!-- Pre-Loader Start-->
+      <div id="preloader">
+        <div class="loader_line"></div>
+      </div>
+      <!-- Header-section Start-->
+      <div class="header-holder services-section text-center animate__animated animate__rotateIn">
+        <div class="navigation">
+          <ul class="nav">
+            <li class="list active">
+              <a href="#home" class="active">
+                <span class="icon">
+                  <i class="fas fa-house-user"></i>
+                </span>
+                <div class="social__tooltip social__tooltip-bottom">Inicio</div>
+              </a>
+            </li>
+            <li class="list">
+              <a href="#about">
+                <span class="icon">
+                  <i class="fas fa-user-alt"></i>
+                </span>
+                <div class="social__tooltip social__tooltip-bottom">Sobre mí</div>
+              </a>
+            </li>
+            <li class="list">
+              <a href="#portfolio">
+                <span class="icon">
+                  <i class="fas fa-briefcase"></i>
+                </span>
+                <div class="social__tooltip social__tooltip-bottom">Portafolio</div>
+              </a>
+            </li>
+            
+            <li class="list">
+              <a href="#contact">
+                <span class="icon">
+                  <i class="fas fa-phone-alt"></i>
+                </span>
+                <div class="social__tooltip social__tooltip-bottom">Contacto</div>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+      <!-- Header-section End-->
+      <!-- section-part Start -->
+      <div class="container ">
+
+        <!-- Index-page Start -->
+        <section id="home" class="section active">
+          <div class="homecolor-box"></div>
+          <div class="common_bg animate__animated animate__rotateIn">
+            <div class="container m-auto">
+              <div class="row align-items-center">
+                <!-- Profile-Pic -->
+                <div class=" col-xl-5 col-lg-6 col-md-6 col-12">
+                  <div id="particles-js"
+                    class="home-profile particles-js animate__animated animate__fadeInLeft animate__delay-1s">
+                    <img src="assets/images/protfolio/index.webp" alt="home-profile">
+                  </div>
+                </div>
+                <!-- Profile-Pic End-->
+                <!-- Profile-Information -->
+                <div class="col-xl-7 col-lg-6 col-md-6 col-12">
+                  <div class="home-content">
+                    <P class="common-desctiption animate__animated animate__fadeInDown animate__delay-1s">Conoce un poco sobre mí
+                    </P>
+                    <h1 class="common-title animate__animated animate__fadeInDown animate__delay-1s">Fernando Enrique Trujillo Guiarte</h1>
+                    <div class="animated-bar animate__animated animate__fadeInDown animate__delay-2s"></div>
+                    <div class="animated-text animate__animated animate__fadeInDown animate__delay-2s">
+                      <h3>Web Developer</h3>
+                      <h3>Back End Developer</h3>
+                    </div>
+                    
+                    <p class="lorem-text animate__animated animate__zoomIn animate__delay-2-5s">
+                      Soy una persona apasionada por la resolución de problemas, he trabajado por varios años en la creación de proyectos que brinden soluciones a diferentes empresas, me especializo en el desarrollo web, siendo mi fuerte el back end.<br><br>
+                      Soy autodidacta, me gustan los retos, el crecimiento constante, aprender  y unas de mis características más fuertes son la eficiencia, la resolución a problemas complejos, el rápido aprendizaje y la creatividad.
+                    </p>
+                    <div class="home-btn">
+                      <a href="#contact" data-section-index="1"
+                        class="clickbtn hire-me animate__animated animate__fadeInTopLeft animate__delay-3s ">Contrátame</a>
+                      <a href="#about" data-section-index="1"
+                        class="clickbtn about-us animate__animated animate__fadeInTopRight animate__delay-3s">Más sobre mí</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Profile-Information End -->
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Index-page End -->
+
+        <!-- About Section Start -->
+        <section id="about" class="section ">
+          <div class="homecolor-box"></div>
+          <div class="common_bg animate__animated animate__lightSpeedInLeft">
+            <div class="container">
+              <div class="about-content">
+                <!-- About Title Start-->
+                <div class="row ">
+                  <div class="col-12 ">
+                    <div class="section-title  animate__animated animate__fadeInDown animate__delay-1s">
+                      <P class="common-desctiption">Mi introducción</P>
+                      <h1 class="common-title">Sobre <span>mí</span></h1>
+                      <div class="animated-bar"></div>
+                    </div>
+                  </div>
+                </div>
+                <!-- About Title End -->
+                <!-- About-Me -->
+                <div class="row single-section">
+                  <div class="col-lg-4 profile-photo animate__animated animate__fadeInLeft animate__delay-2s ">
+                    <div class="row">
+                      <div class="col-12 d-block col-sm-none">
+                        <img src="assets/images/protfolio/index2.webp" class="img-fluid main-img-mobile" alt="my picture">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-8 col-sm-12">
+                    <div class="row personal-info animate__animated animate__fadeInRight animate__delay-2s">
+
+                      <div class="col-12">
+                        <h5 class="personal-title">¿ Quién <span>soy ?</span></h5>
+                        <h3 class="personal-title">Soy Fernando E. Trujillo Guiarte, un <span>Web Developer</span> especializado en <span>Back End</span></h3>
+                        <p class="info">Soy una persona apasionada por la resolución de problemas, he trabajado por varios años en la creación de proyectos que brinden soluciones a diferentes empresas, me especializo en el desarrollo web, siendo mi fuerte el back end, soy autodidacta, me gustan los retos, el crecimiento constante, aprender y unas de mis características más fuertes son la eficiencia, la resolución a problemas complejos, el rápido aprendizaje y la creatividad.</p>
+                      </div>
+
+                      <div class="row ">
+                        <div class="col-lg-12">
+                          <h3 class="personal-infotitle">información <span>personal</span></h3>
+                        </div>
+
+                        <div class="col-lg-6">
+                          <ul class="about-you ">
+                            <li>
+                              <span class="title">Nombres :</span>
+                              <span class="value">Fernando Enrique</span>
+                            </li>
+                            <li>
+                              <span class="title">Apellidos :</span>
+                              <span class="value">Trujillo Guiarte</span>
+                            </li>
+                            <li>
+                              <span class="title">Residencia :</span>
+                              <span class="value">Zapotlanejo, Jal. México - (a 20 min. de Guadalajara)</span>
+                            </li>
+                            <li>
+                              <span class="title">Edad :</span>
+                              <span class="value">21 años</span>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="col-lg-6">
+                          <ul class="about-you ">
+                            <li>
+                              <span class="title">Correo electrónico :</span>
+                              <span class="value"><a href="mailto:fetg.contacto@gmail.com">fetg.contacto@gmail.com</a></span>
+                            </li>
+                            <li>
+                              <span class="title">Teléfono :</span>
+                              <span class="value"><a href="tel:(+52)3311929289">(+52) 331 192 9289</a></span>
+                            </li>
+                            <li>
+                              <span class="title">Lenguajes :</span>
+                              <span class="value">Inglés B2 y Español nativo</span>
+                            </li>
+                            <li>
+                              <span class="title">Freelance :</span>
+                              <span class="value">Disponible</span>
+                            </li>
+                          </ul>
+                        </div>
+
+                        <div class="col-lg-12">
+                          <div class="About-btn">
+                            <button id="b1" class="clickbtn download-cv">Descargar CV <i class="fa fa-download"
+                                aria-hidden="true"></i></button>
+                         
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- About-Me End -->
+                <!-- Resume section Start -->
+                <div class="resume-section ">
+                  <!-- Resume title-->
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="section-title animate__animated animate__fadeInUp animate__delay-3s">
+                        <P class="common-desctiption">Dale un vistazo a mi resumen</P>
+                        <h1 class="common-title ">Mi <span>Resumen</span></h1>
+                        <div class="animated-bar "></div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Resume title End-->
+                  <!-- Resume Content -->
+                  <div class="row">
+                    <!-- Experience part-->
+                    <div class="col-md-4 col-12 ">
+                      <div class=" col-block education">
+                        <h3 class="about-subtitle">Experiencia profesional</h3>
+                        <div class="resume-item"><span class="item-arrow"></span>
+                          <h5 class="item-title">Jefe del área de programación</h5><span class="item-details">VSP Computer / Febrero 2020 -
+                            Actualidad</span>
+                          <p class="item-description">Desarrollo de diferentes sistemas a medida (e-commerce's, CRM's, ERP's, ó especializados).</p>
+                        </div>
+                        <div class="resume-item"><span class="item-arrow"></span>
+                          <h5 class="item-title">Web Developer</h5><span class="item-details">Chang Custom / 2021 -
+                            Actualidad</span>
+                          <p class="item-description">Administración y mantenimiento a e-commerce contenido en un CMS (WordPress).</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Education part-->
+                    <div class="col-md-4 col-12 ">
+                      <div class=" col-block education ">
+                        <h3 class="about-subtitle">Formación académica</h3>
+                        <div class="resume-item"><span class="item-arrow"></span>
+                          <h5 class="item-title">Ingeniería en Computación</h5><span
+                            class="item-details">Centro Universitario de los Altos (UDG) / 2019 - Actualidad</span>
+                          <p class="item-description">Creación de diferentes proyectos y aprendizaje general en el área de desarrollo.</p>
+                        </div>
+                        <div class="resume-item"><span class="item-arrow"></span>
+                          <h5 class="item-title">Carrera Técnica en Programación</h5><span
+                            class="item-details">Centro de Estudios Tecnológicos, Industriales y de Servicios / 2016 - 2019</span>
+                          <p class="item-description">Creación de diferentes proyectos y aprendizaje general en el área de desarrollo.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Education part-->
+                    <div class="col-md-4 col-12 ">
+                      <div class=" col-block education ">
+                        <h3 class="about-subtitle">Cursos y certificaciones</h3>
+                        <div class="resume-item"><span class="item-arrow"></span>
+                          <h5 class="item-title">Cisco</h5>
+                          <span class="item-details">NDG Linux Essentials / Marzo 2022</span>
+                          <span class="item-details">Introducción a la Seguridad Cibernética / Mayo 2021</span>
+                          <span class="item-details">CCNAv7: Introducción a Redes / Enero 2021</span>
+                          
+                        </div>
+                        <div class="resume-item"><span class="item-arrow"></span>
+                          <h5 class="item-title">Fortinet</h5><span
+                            class="item-details">NSE 1 Network Security Associate / Junio 2021</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Resume ContentEnd -->
+                </div>
+                <!-- / Resume section End-->
+                <!-- Skill Bar Section -->
+                <div class="skill-section">
+                  <div class="row">
+                    <div class="col-12 ">
+                      <div class="section-title animate__animated animate__fadeInUp animate__delay-3s">
+                        <P class="common-desctiption">Mi conocimiento y experiencia en Tecnologías</P>
+                        <h1 class="common-title">Mis <span>habilidades</span></h1>
+                        <div class="animated-bar"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 ">
+                      <!--<h3 class="about-subtitle">Design <span>Skills</span></h3>-->
+                      <div class="skill-bars">
+                        <div class="bar">
+                          <div class="info">
+                            <span>PHP</span>
+                          </div>
+                          <div class="progress-line PHP">
+                            <span></span>
+                          </div>
+                        </div>
+                        <div class="bar">
+                          <div class="info">
+                            <span>JSP</span>
+                          </div>
+                          <div class="progress-line JSP">
+                            <span></span>
+                          </div>
+                        </div>
+                        <div class="bar">
+                          <div class="info">
+                            <span>MySQL</span>
+                          </div>
+                          <div class="progress-line MySQL">
+                            <span></span>
+                          </div>
+                        </div>
+                        <div class="bar">
+                          <div class="info">
+                            <span>SQL Server</span>
+                          </div>
+                          <div class="progress-line SQL">
+                            <span></span>
+                          </div>
+                        </div>
+                        <div class="bar">
+                          <div class="info">
+                            <span>GitHub</span>
+                          </div>
+                          <div class="progress-line GitHub">
+                            <span></span>
+                          </div>
+                        </div>
+                        <div class="bar">
+                          <div class="info">
+                            <span>Linux</span>
+                          </div>
+                          <div class="progress-line Linux">
+                            <span></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 ">
+                      <!--<h3 class="about-subtitle">Coding <span>Skills</span></h3>-->
+                      <div class="skill-bars">
+                        <div class="bar">
+                          <div class="info">
+                            <span>HTML</span>
+                          </div>
+                          <div class="progress-line html">
+                            <span></span>
+                          </div>
+                        </div>
+                        <div class="bar">
+                          <div class="info">
+                            <span>CSS</span>
+                          </div>
+                          <div class="progress-line css">
+                            <span></span>
+                          </div>
+                        </div>
+                        <div class="bar">
+                          <div class="info">
+                            <span>Bootstrap</span>
+                          </div>
+                          <div class="progress-line Bootstrap">
+                            <span></span>
+                          </div>
+                        </div>
+                        <div class="bar">
+                          <div class="info">
+                            <span>Javascript</span>
+                          </div>
+                          <div class="progress-line Javascript">
+                            <span></span>
+                          </div>
+                        </div>
+                        <div class="bar">
+                          <div class="info">
+                            <span>JQuery</span>
+                          </div>
+                          <div class="progress-line JQuery">
+                            <span></span>
+                          </div>
+                        </div>
+                        <div class="bar">
+                          <div class="info">
+                            <span>Ajax</span>
+                          </div>
+                          <div class="progress-line Ajax">
+                            <span></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- / Skill Bar Section -->
+                
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- About Section End -->
+
+        <!-- Protfolio Section Start-->
+        <section id="portfolio" class="section">
+          <div class="homecolor-box"></div>
+          <div class="common_bg animate__animated animate__lightSpeedInRight">
+            <div class="container">
+              <div class="protfolio-section text-center  ">
+                <!-- Protfolio-Title Start -->
+                <div class="row">
+                  <div class="col-12">
+                    <div class="section-title animate__animated animate__fadeInDown animate__delay-1s">
+                      <P class="common-desctiption">Dale un vistazo a mis mejores trabajos</P>
+                      <h1 class="common-title">Mi <span>Portafolio</span></h1>
+                      <div class="animated-bar"></div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Protfolio-Title Start -->
+                <!-- Protfolio nav-button start  -->
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="portfolio-menu animate__animated animate__fadeInUp animate__delay-2s">
+                      <nav class="controls ">
+                        <button type="button" class="control clickbtn" data-filter="all">Todo</button>
+                        <button type="button" class="control clickbtn" data-filter=".e-commerce">E-Commerce</button>
+                        <button type="button" class="control clickbtn" data-filter=".ERP ">ERP</button>
+                        <button type="button" class="control clickbtn" data-filter=".Especializado ">Especializado</button>
+                        <button type="button" class="control clickbtn" data-filter=".Informativo ">Informativo</button>
+                        <button type="button" class="control clickbtn" data-filter=".Personal ">Proyecto Personal</button>
+                      </nav>
+                    </div>
+                  </div>
+                </div>
+                <!-- Protfolio nav-button End  -->
+                <!-- Portfolio Mix Content Start -->
+                <div class="row portfolio-list animate__zoomIn animate__animated animate__delay-3s">
+                  <div class="container">
+                    <ul class="row ps-0">
+                      <!-- Mix Content-Box -->
+                      <li class="mix e-commerce col-xl-3 col-lg-4 col-md-6">
+                        <a href="maximoda.html" data-gallery="portfolioDetailsGallery" data-glightbox="type:
+                      external" class="portfolio-details-lightbox">
+                          <img src="assets/images/details/maximoda.webp" alt="Image description" />
+                          <div class="info">
+                            <h3 class="title">Maximoda Textil</h3>
+                            <span class="post">Ver</span>
+                          </div>
+                        </a>
+                      </li>
+                      <!-- Mix Content-Box -->
+                      <li class="mix Especializado col-xl-3 col-lg-4 col-md-6">
+                        <a href="atlantida.html" data-gallery="portfolioDetailsGallery" data-glightbox="type:
+                      external" class="portfolio-details-lightbox">
+                          <img src="assets/images/details/atlantida.webp" alt="Image description" />
+                          <div class="info">
+                            <h3 class="title">Atlantida Swimming Club</h3>
+                            <span class="post">Ver</span>
+                          </div>
+                        </a>
+                      </li>
+
+                      <li class="mix Personal Especializado col-xl-3 col-lg-4 col-md-6">
+                        <a href="veterinaria.html" data-gallery="portfolioDetailsGallery" data-glightbox="type:
+                      external" class="portfolio-details-lightbox">
+                          <img src="assets/images/details/veterinaria.webp" alt="Image description" />
+                          <div class="info">
+                            <h3 class="title">Veterinaria</h3>
+                            <span class="post">Ver</span>
+                          </div>
+                        </a>
+                      </li>
+
+                      <li class="mix e-commerce col-xl-3 col-lg-4 col-md-6">
+                        <a href="shop.html" data-gallery="portfolioDetailsGallery" data-glightbox="type:
+                      external" class="portfolio-details-lightbox">
+                          <img src="assets/images/details/shop.webp" alt="Image description" />
+                          <div class="info">
+                            <h3 class="title">VSP Shop</h3>
+                            <span class="post">Ver</span>
+                          </div>
+                        </a>
+                      </li>
+
+                      <li class="mix ERP col-xl-3 col-lg-4 col-md-6">
+                        <a href="intranet.html" data-gallery="portfolioDetailsGallery" data-glightbox="type:
+                      external" class="portfolio-details-lightbox">
+                          <img src="assets/images/details/intra.webp" alt="Image description" />
+                          <div class="info">
+                            <h3 class="title">VSP Intranet</h3>
+                            <span class="post">Ver</span>
+                          </div>
+                        </a>
+                      </li>
+
+                       <!-- Mix Content Box -->
+                      <li class="mix Especializado col-xl-3 col-lg-4 col-md-6">
+                        <a href="dicatho.html" data-gallery="portfolioDetailsGallery" data-glightbox="type:
+                      external" class="portfolio-details-lightbox">
+                          <img src="assets/images/details/dicatho.webp" alt="Image description" />
+                          <div class="info">
+                            <h3 class="title">Dicatho</h3>
+                            <span class="post">Ver</span>
+                          </div>
+                        </a>
+                      </li>
+                      
+                      <li class="mix Especializado col-xl-3 col-lg-4 col-md-6">
+                        <a href="sara.html" data-gallery="portfolioDetailsGallery" data-glightbox="type:
+                      external" class="portfolio-details-lightbox">
+                          <img src="assets/images/details/sara.webp" alt="Image description" />
+                          <div class="info">
+                            <h3 class="title">Sara N Hotel & Spa</h3>
+                            <span class="post">Ver</span>
+                          </div>
+                        </a>
+                      </li>
+
+
+                      <li class="mix e-commerce col-xl-3 col-lg-4 col-md-6">
+                        <a href="trendy.html" data-gallery="portfolioDetailsGallery" data-glightbox="type:
+                      external" class="portfolio-details-lightbox">
+                          <img src="assets/images/details/trendy.webp" alt="Image description" />
+                          <div class="info">
+                            <h3 class="title">Trendy Suite</h3>
+                            <span class="post">Ver</span>
+                          </div>
+                        </a>
+                      </li>
+
+
+                      <li class="mix Informativo col-xl-3 col-lg-4 col-md-6">
+                        <a href="ezium.html" data-gallery="portfolioDetailsGallery" data-glightbox="type:
+                      external" class="portfolio-details-lightbox">
+                          <img src="assets/images/details/ezium.webp" alt="Image description" />
+                          <div class="info">
+                            <h3 class="title">Ezium</h3>
+                            <span class="post">Ver</span>
+                          </div>
+                        </a>
+                      </li>
+
+                      <li class="mix Personal Especializado col-xl-3 col-lg-4 col-md-6">
+                        <a href="maresi.html" data-gallery="portfolioDetailsGallery" data-glightbox="type:
+                      external" class="portfolio-details-lightbox">
+                          <img src="assets/images/details/maresi.webp" alt="Image description" />
+                          <div class="info">
+                            <h3 class="title">Maresi</h3>
+                            <span class="post">Ver</span>
+                          </div>
+                        </a>
+                      </li>
+                     
+                      <!-- Mix Content Box -->
+                      <li class="mix Informativo col-xl-3 col-lg-4 col-md-6">
+                        <a href="firework.html" data-gallery="portfolioDetailsGallery" data-glightbox="type:
+                      external" class="portfolio-details-lightbox">
+                          <img src="assets/images/details/firework.webp" alt="Image description" />
+                          <div class="info">
+                            <h3 class="title">FireWork CSS</h3>
+                            <span class="post">Ver</span>
+                          </div>
+                        </a>
+                      </li>
+                    
+                      <li class="mix Informativo col-xl-3 col-lg-4 col-md-6">
+                        <a href="papalote.html" data-gallery="portfolioDetailsGallery" data-glightbox="type:
+                      external" class="portfolio-details-lightbox">
+                          <img src="assets/images/details/papalote.webp" alt="Image description" />
+                          <div class="info">
+                            <h3 class="title">Papalote C. S.</h3>
+                            <span class="post">Ver</span>
+                          </div>
+                        </a>
+                      </li>
+
+                    </ul>
+                  </div>
+                </div>
+                <!-- Portfolio Mix Content End -->
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Protfolio Section End -->
+
+        <!-- Contact section Start -->
+        <section id="contact" class="section">
+          <div class="homecolor-box"></div>
+          <div class="common_bg animate__animated animate__rollIn">
+            <div class="container">
+              <!-- Contact-page Start -->
+              <div class="contact-section">
+                <!-- Contact-Section Title -->
+                <div class="row">
+                  <div class="col-12">
+                    <div class="section-title animate__animated animate__fadeInDown animate__delay-1s">
+                      <P class="common-desctiption">Envíame un mensaje</P>
+                      <h1 class="common-title">Mi <span>Contacto</span></h1>
+                      <div class="animated-bar"></div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Contact-Section Title End-->
+                <!-- Contact Form Start -->
+                <div class="contact-section">
+                  <div class="row">
+                    <!-- Contact form -->
+                    <div class="col-lg-7 col-12 ">
+                      <form class="contact-form animate__animated animate__fadeInLeft animate__delay-2s"
+                        id="contact-form">
+                        <h4 class="content-title">Contáctame</h4>
+                        <div class="row">
+                          <div class="col-12 col-md-6 form-group">
+                            <input class="form-control" id="name" type="text" oninput="delBorder('name')" name="name" placeholder="Nombre completo" required="">
+                          </div>
+                          <div class="col-12 col-md-6 form-group">
+                            <input class="form-control" id="email" type="email" oninput="delBorder('email')" name="email" placeholder="Correo electrónico" required="">
+                          </div>
+                          <div class="col-12 form-group">
+                            <input class="form-control" id="subject" type="text" oninput="delBorder('subject')" name="subject" placeholder="Asunto" required="">
+                          </div>
+                          <div class="col-12 form-group form-message">
+                            <textarea class="form-control" id="message" name="message" oninput="delBorder('message')" placeholder="Mensaje" rows="5" required=""></textarea>
+                          </div>
+                          <div class="col-12 mb-4 form-submit"><button class="clickbtn button-main button-scheme" id="send" type="button">Enviar mensaje</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <!-- Contact form End -->
+                    <!-- Contact info -->
+                    <div class="col-lg-5 col-12 ">
+                      <div class="contact-info animate__animated animate__fadeInRight animate__delay-3s">
+                        <h4 class="content-title">Información de Contacto</h4>
+                        <p class="info-description">Siempre estoy disponible para un proyecto interesante. ¡Contáctame!</p>
+                        <ul class="list-unstyled list-info" style="display: inline-grid">
+                          <li>
+                            <div class="media d-flex align-items-center"><span class="info-icon"><i
+                                  class="fas fa-user-alt"></i></span>
+                              <div class="media-body info-details">
+                                <h6 class="info-type">Nombre</h6><span class="info-value">Fernando Enrique Trujillo Guiarte</span>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="media d-flex align-items-center"><span class="info-icon"><i
+                                  class="fas fa-map-pin"></i></span>
+                              <div class="media-body info-details">
+                                <h6 class="info-type">Residencia</h6><span class="info-value">Zapotlanejo, Jal. México - (a 20 min. de Guadalajara)</span>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="media d-flex align-items-center"><span class="info-icon"><i
+                                  class="fas fa-phone-alt"></i></span>
+                              <div class="media-body info-details">
+                                <h6 class="info-type">Llámame</h6><span class="info-value"><a href="tel:+523311929289">+(52)
+                                    331 192 9289</a></span>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="media d-flex align-items-center"><span class="info-icon"><i
+                                  class="fas fa-envelope"></i></span>
+                              <div class="media-body info-details">
+                                <h6 class="info-type">Contáctame</h6><span class="info-value"><a
+                                    href="mailto:fetg.contacto@gmail.com">fetg.contacto@gmail.com</a></span>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                 
+                  </div>
+                </div>
+                
+                <!-- Contact-Footer -->
+                <div class="row justify-content-center animate__animated animate__fadeInUp animate__delay-5s">
+                  <div class="col-lg-6 text-center">
+                    <h5 class="footer">Copyright&copy; &#160;<script>
+                        document.write(new Date().getFullYear())
+                      </script><a> Fernando Enrique Trujillo Guiarte</a>&#160;&#160;<i
+                        class="fas fa-heart animate__animated animate__pulse animate__faster animate__infinite	infinite"></i>&#160;&#160;Todos los derechos reservados</h5>
+                  </div>
+                </div>
+                <!-- Contact-Footer End -->
+              </div>
+              <!-- Contact-page End -->
+            </div>
+          </div>
+        </section>
+        <!-- Contact section End -->
+
+      </div>
+      <!-- section-part End-->
+      <!-- Mouse-Cursor -->
+      <div class="mouse-cursor cursor-outer"></div>
+      <div class="mouse-cursor cursor-inner"></div>
+      <!-- Mouse-Cursor End-->
+    </div>
+    <!-- Body Part End -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- Jquery Js -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Bootstrap Js -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!--Particles Js -->
+    <script src="assets/js/particles.min.js"></script>
+    <script src="assets/js/particlesjs-config.js"></script>
+
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <!-- Isotope JS -->
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <!-- Swiper JS  -->
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <!-- Jquery FancyBox Js 
+    <script src="assets/js/jquery.fancybox.min.js"></script>-->
+    <!-- Mixitup Js -->
+    <script src="assets/js/mixitup.min.js"></script>
+    <!-- Owlcarousel Js -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- Jquery Countdown Js -->
+    <script src="assets/js/jquery.countdown.min.js"></script>
+    <!-- Wow Js -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- Custom Js -->
+    <script src="assets/js/custom.js"></script>
+     <!-- Style.switch JS -->
+    <script src="assets/js/style.switch.js"></script>
+    <!-- colors JS -->
+    <script src="assets/js/color.js"></script>
+    <script src="assets/js/funciones.js"></script>
+    <script>
+          $(document).ready(function() {
+            var regex = /[\w-\.]{2,}@([\w-]{2,}\.)*([\w-]{2,}\.)[\w-]{2,4}/;
+
+            $('#send').on('click', function() {
+              //$("#loading").animate( { "opacity": "show", top:"0"} , 500 );
+              $("#send").attr("disabled", "disabled");
+              $("#send").html("Enviando...");
+
+              var name = $('#name').val();
+              var email = $('#email').val();
+              var subject = $('#subject').val();
+              var message = $('#message').val();
+
+              if((name!="") && (email!="") && (subject!="") && (message!="")){
+                if (regex.test(email.trim())) {
+                  $.ajax({
+                    url: "https://www.changcustom.com/fer/cntrllr_contacto.php?name="+name+"&email="+email+"&subject="+subject+"&message="+message,
+                    type: "GET",
+                    data:{
+                      name:name,
+                      email:email,
+                      subject:subject,
+                      message:message,
+                      callback:'callback'
+                    },
+                    dataType: 'jsonp', //tipo de datos
+                    jsonpCallback: 'callback',
+                    processData: false, 
+                    success: function(dataResult){
+                      //var dataResult = JSON.parse(dataResult);
+                      if(dataResult.statusCode==200){
+                        $("#send").removeAttr("disabled");
+                        //$("#loading").animate( { "opacity": "hide", top:"0"} , 500 );
+                        $("#send").html("Enviar mensaje");
+                        $('#name').val('');
+                        $('#email').val('');
+                        $('#subject').val('');
+                        $('#message').val('');
+                        alerta2('Se ha enviado tu mensaje');
+                        
+                      }else if (dataResult.statusCode==202) {
+                        $("#send").removeAttr("disabled");
+                        //$("#loading").animate( { "opacity": "hide", top:"0"} , 500 );
+                        $("#send").html("Enviar mensaje");
+                        alertae('Tu mensaje no se pudo enviar');
+                      }
+                    }
+                  });
+                } else {
+                  $("#send").removeAttr("disabled");
+                  $("#send").html("Enviar mensaje");
+                  alertae('La dirección de correo no es válida');
+                }
+              }else{
+                $("#send").removeAttr("disabled");
+                if ($('#name').val().trim() == "") {
+                  $('#name').css("border", "1px solid #ff0000")
+                }
+                if ($('#email').val().trim() == "") {
+                  $('#email').css("border", "1px solid #ff0000")
+                }
+                if ($('#subject').val().trim() == "") {
+                  $('#subject').css("border", "1px solid #ff0000")
+                }
+                if ($('#message').val() == "") {
+                  $('#message').css("border", "1px solid #ff0000")
+                }
+                
+                alertae('Completa los campos marcados en rojo antes de continuar');
+                $("#send").removeAttr("disabled");
+                //$("#loading").animate( { "opacity": "hide", top:"0"} , 500 );
+                $("#send").html("Enviar mensaje");
+              }
+            });
+          });
+      </script>
+  </body>
+
+  </html>
