@@ -574,6 +574,15 @@ h1.common-title {
     /* border: none; */
 }
 
+.a-int{
+    padding: 10px 10px;
+    color: white;
+}
+
+.a-int:hover{
+    color: #111;
+}
+
 .home-btn {
     padding: 16px;
     text-align: center;

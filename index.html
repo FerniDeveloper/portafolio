@@ -227,9 +227,7 @@
 
                         <div class="col-lg-12">
                           <div class="About-btn">
-                            <button id="b1" class="clickbtn download-cv">Descargar CV <i class="fa fa-download"
-                                aria-hidden="true"></i></button>
-                         
+                              <button class="clickbtn download-cv"><a class="a-int" href="assets/cv/Fernando-Enrique-Trujillo-Guiarte-CV.pdf" download="Fernando-Enrique-Trujillo-Guiarte-CV.pdf" >Descargar CV <i class="fa fa-download" aria-hidden="true"></i></a></button>
                           </div>
                         </div>
 
@@ -804,7 +802,7 @@
                         $('#email').val('');
                         $('#subject').val('');
                         $('#message').val('');
-                        alerta2('Se ha enviado tu mensaje');
+                        alerta2('Tu mensaje se envío correctamente. ¡Gracias por contactarme!');
                         
                       }else if (dataResult.statusCode==202) {
                         $("#send").removeAttr("disabled");
