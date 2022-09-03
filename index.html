@@ -39,7 +39,26 @@
     <!-- Responsive CSS -->
     <link type="text/css" rel="stylesheet" href="assets/css/responsive.css" />
     <link rel="stylesheet" href="assets/css/sweetalert2.css">
-
+    <style type="text/css">
+      #google_translate_element{
+        position: fixed; 
+        bottom: 8vh; 
+        left: 5vw; 
+        z-index: 999;
+      }
+      select {
+        padding: 8px !important;
+        border: 0 !important;
+        background-color: #0090FF;
+        color: #fff;
+      }
+      .goog-te-combo option{
+        color: #fff !important;
+      }
+      body > .skiptranslate{
+        display: none !important;
+      }
+    </style>
   </head>
 
   <body>
@@ -51,6 +70,7 @@
     </script>
     <!-- Body Part Start -->
     <div class="gaspar" data-magic-cursor="show" data-color="crimson">
+
       <!-- Pre-Loader Start-->
       <div id="preloader">
         <div class="loader_line"></div>
@@ -100,6 +120,8 @@
       <!-- section-part Start -->
       <div class="container ">
 
+        <div id="google_translate_element"></div>
+
         <!-- Index-page Start -->
         <section id="home" class="section active">
           <div class="homecolor-box"></div>
@@ -115,6 +137,7 @@
                 </div>
                 <!-- Profile-Pic End-->
                 <!-- Profile-Information -->
+
                 <div class="col-xl-7 col-lg-6 col-md-6 col-12">
                   <div class="home-content">
                     <P class="common-desctiption animate__animated animate__fadeInDown animate__delay-1s">Conoce un poco sobre mí
@@ -127,7 +150,7 @@
                     </div>
                     
                     <p class="lorem-text animate__animated animate__zoomIn animate__delay-2-5s">
-                      Soy una persona apasionada por la resolución de problemas, he trabajado por varios años en la creación de proyectos que brinden soluciones a diferentes empresas, me especializo en el desarrollo web, siendo mi fuerte el back end.<br><br>
+                      Soy una persona apasionada por la resolución de problemas, he trabajado por varios años en la creación de proyectos que brinden soluciones a diferentes empresas, me especializo en el desarrollo web, siendo mi fuerte el <b>back end</b>.<br><br>
                       Soy autodidacta, me gustan los retos, el crecimiento constante, aprender  y unas de mis características más fuertes son la eficiencia, la resolución a problemas complejos, el rápido aprendizaje y la creatividad.
                     </p>
                     <div class="home-btn">
@@ -147,6 +170,7 @@
 
         <!-- About Section Start -->
         <section id="about" class="section ">
+
           <div class="homecolor-box"></div>
           <div class="common_bg animate__animated animate__lightSpeedInLeft">
             <div class="container">
@@ -177,7 +201,7 @@
                       <div class="col-12">
                         <h5 class="personal-title">¿ Quién <span>soy ?</span></h5>
                         <h3 class="personal-title">Soy Fernando E. Trujillo Guiarte, un <span>Web Developer</span> especializado en <span>Back End</span></h3>
-                        <p class="info">Soy una persona apasionada por la resolución de problemas, he trabajado por varios años en la creación de proyectos que brinden soluciones a diferentes empresas, me especializo en el desarrollo web, siendo mi fuerte el back end, soy autodidacta, me gustan los retos, el crecimiento constante, aprender y unas de mis características más fuertes son la eficiencia, la resolución a problemas complejos, el rápido aprendizaje y la creatividad.</p>
+                        <p class="info">Soy una persona apasionada por la resolución de problemas, he trabajado por varios años en la creación de proyectos que brinden soluciones a diferentes empresas, me especializo en el desarrollo web, siendo mi fuerte el <b>back end</b>, soy autodidacta, me gustan los retos, el crecimiento constante, aprender y unas de mis características más fuertes son la eficiencia, la resolución a problemas complejos, el rápido aprendizaje y la creatividad.</p>
                       </div>
 
                       <div class="row ">
@@ -433,6 +457,7 @@
 
         <!-- Protfolio Section Start-->
         <section id="portfolio" class="section">
+
           <div class="homecolor-box"></div>
           <div class="common_bg animate__animated animate__lightSpeedInRight">
             <div class="container">
@@ -617,6 +642,7 @@
 
         <!-- Contact section Start -->
         <section id="contact" class="section">
+
           <div class="homecolor-box"></div>
           <div class="common_bg animate__animated animate__rollIn">
             <div class="container">
@@ -841,6 +867,15 @@
             });
           });
       </script>
+      
+      <script type="text/javascript"> 
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'es'}, 'google_translate_element');
+        }
+      </script>
+
+      <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
   </body>
 
   </html>
